@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbfad6a6-37b7-4757-82ee-117216e2b0d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PasswordUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatest/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatest/util/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatest/util/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatest/util/StringUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2MCNNEo39eJsWdbxa4t2dL47p3a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,21 +59,55 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="com.platzi.javatest.util" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="StringUtilTest.testRepeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PasswordUtilTest.strongTest_hasLetters_numbers_symbols">
+    <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatest.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatest.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatest.util.StringUtilTest" />
-      <option name="METHOD_NAME" value="testRepeat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordUtilTest.mediumTest_hasLetters_andNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
+      <option name="METHOD_NAME" value="mediumTest_hasLetters_andNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordUtilTest.strongTest_hasLetters_numbers_symbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
+      <option name="METHOD_NAME" value="strongTest_hasLetters_numbers_symbols" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordUtilTest.weakTest_lessThan8Characters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
+      <option name="METHOD_NAME" value="weakTest_lessThan8Characters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordUtilTest.weakTest_onlyLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
+      <option name="METHOD_NAME" value="weakTest_onlyLetters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,7 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringUtilTest.testRepeat" />
+        <item itemvalue="JUnit.PasswordUtilTest.strongTest_hasLetters_numbers_symbols" />
+        <item itemvalue="JUnit.PasswordUtilTest" />
+        <item itemvalue="JUnit.PasswordUtilTest.mediumTest_hasLetters_andNumbers" />
+        <item itemvalue="JUnit.PasswordUtilTest.weakTest_lessThan8Characters" />
+        <item itemvalue="JUnit.PasswordUtilTest.weakTest_onlyLetters" />
       </list>
     </recent_temporary>
   </component>

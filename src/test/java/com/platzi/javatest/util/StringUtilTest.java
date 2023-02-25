@@ -6,15 +6,21 @@ import org.junit.Test;
 
 public class StringUtilTest {
     @Test
-    public  void testRepeat() {
-        String result = StringUtil.repeat( "hola",3);
+    public void repeat_string_once() {
+        Assert.assertEquals("hola", StringUtil.repeat("hola", 1));
+    }
 
-        Assert.assertEquals("holaholahola",result);
-
-        String result2 = StringUtil.repeat( "hola",1);
-        Assert.assertEquals("hola",result2);
-
-
+    @Test
+    public void repeat_string_multiple_times() {
+        Assert.assertEquals("holaholahola", StringUtil.repeat("hola", 3));
+    }
+    @Test
+    public void repeat_string_zero_times() {
+        Assert.assertEquals("", StringUtil.repeat("hola", 0));
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void repeat_string_negative_times() {
+        StringUtil.repeat("hola", -1);
     }
 
 
