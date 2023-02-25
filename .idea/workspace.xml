@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbfad6a6-37b7-4757-82ee-117216e2b0d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/player/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/stringUtil/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/stringUtil/StringUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/password/PasswordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PasswordUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -65,80 +61,87 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platzi.stringUtil" />
       <recent name="com.platzi.player" />
       <recent name="" />
       <recent name="com.platzi.javatest.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest">
-    <configuration name="PasswordUtilTest.strongTest_hasLetters_numbers_symbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
-      <option name="METHOD_NAME" value="strongTest_hasLetters_numbers_symbols" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringUtilTest">
+    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.player.*" />
+          <option name="PATTERN" value="com.platzi.stringUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.player" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.player.PlayerTest" />
+      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.lose_when_dice_number_is_too_low" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilTest.string_has_spaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.player.*" />
+          <option name="PATTERN" value="com.platzi.stringUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.player" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.player.PlayerTest" />
-      <option name="METHOD_NAME" value="lose_when_dice_number_is_too_low" />
+      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
+      <option name="METHOD_NAME" value="string_has_spaces" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.tie_when_dice_number_is_equeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilTest.string_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.player.*" />
+          <option name="PATTERN" value="com.platzi.stringUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.player" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.player.PlayerTest" />
-      <option name="METHOD_NAME" value="tie_when_dice_number_is_equeal" />
+      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
+      <option name="METHOD_NAME" value="string_is_empty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.whin_when_dice_number_is_bigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilTest.string_is_not_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.player.*" />
+          <option name="PATTERN" value="com.platzi.stringUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.player" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.player.PlayerTest" />
-      <option name="METHOD_NAME" value="whin_when_dice_number_is_bigger" />
+      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
+      <option name="METHOD_NAME" value="string_is_not_empty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.string_is_nully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.stringUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
+      <option name="METHOD_NAME" value="string_is_nully" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.PlayerTest.tie_when_dice_number_is_equeal" />
-        <item itemvalue="JUnit.PlayerTest.whin_when_dice_number_is_bigger" />
-        <item itemvalue="JUnit.PlayerTest.lose_when_dice_number_is_too_low" />
-        <item itemvalue="JUnit.PasswordUtilTest.strongTest_hasLetters_numbers_symbols" />
+        <item itemvalue="JUnit.StringUtilTest" />
+        <item itemvalue="JUnit.StringUtilTest.string_has_spaces" />
+        <item itemvalue="JUnit.StringUtilTest.string_is_nully" />
+        <item itemvalue="JUnit.StringUtilTest.string_is_not_empty" />
+        <item itemvalue="JUnit.StringUtilTest.string_is_empty" />
       </list>
     </recent_temporary>
   </component>
