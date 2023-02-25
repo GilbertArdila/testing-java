@@ -1,25 +1,23 @@
 package com.platzi.javatest.util;
 
 
+import org.junit.Assert;
+import org.junit.Test;
 
 public class StringUtilTest {
-    public static void main(String[] args) {
+    @Test
+    public  void testRepeat() {
         String result = StringUtil.repeat( "hola",3);
-        assertEqual(result,"holaholahola");
+
+        Assert.assertEquals("holaholahola",result);
 
         String result2 = StringUtil.repeat( "hola",1);
-        assertEqual(result2,"hola");
+        Assert.assertEquals("hola",result2);
 
 
     }
 
-    private static void assertEqual(String actual,String expected){
-        if(!actual.equals(expected)){
-            throw new RuntimeException(actual + " is not equal than "+expected);
-        }else{
-            System.out.println("Success testing");
-        }
-    }
+
 
 }
 
