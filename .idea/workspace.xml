@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbfad6a6-37b7-4757-82ee-117216e2b0d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/discounts/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/discounts/PriceCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/fizzBuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/fizzBuzz/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,87 +64,88 @@
       <recent name="com.platzi.password" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platzi.fizzBuzz" />
       <recent name="com.platzi.discounts" />
       <recent name="com.platzi.leapYear" />
       <recent name="com.platzi.stringUtil" />
       <recent name="com.platzi.player" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriceCalculatorTest">
-    <configuration name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.Should_return_theNumber">
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.leapYear.*" />
+          <option name="PATTERN" value="com.platzi.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.leapYear" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.leapYear.LeapYearTest" />
+      <option name="PACKAGE_NAME" value="com.platzi.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.fizzBuzz.FizzBuzzTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.Should_return_Buzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.discounts.*" />
+          <option name="PATTERN" value="com.platzi.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.discounts" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.discounts.PriceCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceCalculatorTest.apply_discount_to_price" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.discounts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.discounts" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.discounts.PriceCalculatorTest" />
-      <option name="METHOD_NAME" value="apply_discount_to_price" />
+      <option name="PACKAGE_NAME" value="com.platzi.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.fizzBuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="Should_return_Buzz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceCalculatorTest.total_is_the_sum_of_both_prices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.Should_return_Fizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.discounts.*" />
+          <option name="PATTERN" value="com.platzi.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.discounts" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.discounts.PriceCalculatorTest" />
-      <option name="METHOD_NAME" value="total_is_the_sum_of_both_prices" />
+      <option name="PACKAGE_NAME" value="com.platzi.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.fizzBuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="Should_return_Fizz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceCalculatorTest.total_zero_when_no_price" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.Should_return_FizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.discounts.*" />
+          <option name="PATTERN" value="com.platzi.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.discounts" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.discounts.PriceCalculatorTest" />
-      <option name="METHOD_NAME" value="total_zero_when_no_price" />
+      <option name="PACKAGE_NAME" value="com.platzi.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.fizzBuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="Should_return_FizzBuzz" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.Should_return_theNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.fizzBuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.fizzBuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="Should_return_theNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PriceCalculatorTest" />
-        <item itemvalue="JUnit.PriceCalculatorTest.apply_discount_to_price" />
-        <item itemvalue="JUnit.PriceCalculatorTest.total_zero_when_no_price" />
-        <item itemvalue="JUnit.PriceCalculatorTest.total_is_the_sum_of_both_prices" />
-        <item itemvalue="JUnit.LeapYearTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.Should_return_theNumber" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.Should_return_FizzBuzz" />
+        <item itemvalue="JUnit.FizzBuzzTest.Should_return_Buzz" />
+        <item itemvalue="JUnit.FizzBuzzTest.Should_return_Fizz" />
       </list>
     </recent_temporary>
   </component>
