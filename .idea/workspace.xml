@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbfad6a6-37b7-4757-82ee-117216e2b0d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PasswordUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/player/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/player/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatest/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatest/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatest/util/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatest/util/StringUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/password/PasswordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PasswordUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,34 +58,19 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.platzi.player" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platzi.player" />
       <recent name="" />
       <recent name="com.platzi.javatest.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordUtilTest.strongTest_hasLetters_numbers_symbols">
-    <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordUtilTest.mediumTest_hasLetters_andNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
-      <option name="METHOD_NAME" value="mediumTest_hasLetters_andNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PlayerTest">
     <configuration name="PasswordUtilTest.strongTest_hasLetters_numbers_symbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,21 +81,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordUtilTest.weakTest_lessThan8Characters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
-      <option name="METHOD_NAME" value="weakTest_lessThan8Characters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.player" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.player.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.lose_when_dice_number_is_too_low" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.player" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.player.PlayerTest" />
+      <option name="METHOD_NAME" value="lose_when_dice_number_is_too_low" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordUtilTest.weakTest_onlyLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest.tie_when_dice_number_is_equeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordUtilTest" />
-      <option name="METHOD_NAME" value="weakTest_onlyLetters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.player" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.player.PlayerTest" />
+      <option name="METHOD_NAME" value="tie_when_dice_number_is_equeal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.whin_when_dice_number_is_bigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.player" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.player.PlayerTest" />
+      <option name="METHOD_NAME" value="whin_when_dice_number_is_bigger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.PlayerTest.tie_when_dice_number_is_equeal" />
+        <item itemvalue="JUnit.PlayerTest.whin_when_dice_number_is_bigger" />
+        <item itemvalue="JUnit.PlayerTest.lose_when_dice_number_is_too_low" />
         <item itemvalue="JUnit.PasswordUtilTest.strongTest_hasLetters_numbers_symbols" />
-        <item itemvalue="JUnit.PasswordUtilTest" />
-        <item itemvalue="JUnit.PasswordUtilTest.mediumTest_hasLetters_andNumbers" />
-        <item itemvalue="JUnit.PasswordUtilTest.weakTest_lessThan8Characters" />
-        <item itemvalue="JUnit.PasswordUtilTest.weakTest_onlyLetters" />
       </list>
     </recent_temporary>
   </component>

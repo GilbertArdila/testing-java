@@ -1,3 +1,4 @@
+import com.platzi.password.PasswordUtil;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

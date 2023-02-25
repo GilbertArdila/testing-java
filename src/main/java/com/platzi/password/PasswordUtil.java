@@ -1,3 +1,5 @@
+package com.platzi.password;
+
 public class PasswordUtil {
     public enum SecurityLevel{
         WEAK,MEDIUM,STRONG
