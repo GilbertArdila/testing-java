@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbfad6a6-37b7-4757-82ee-117216e2b0d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/stringUtil/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/stringUtil/StringUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/leapYear/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/leapYear/LeapYearTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/password/PasswordUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,88 +61,92 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.platzi.password" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platzi.leapYear" />
       <recent name="com.platzi.stringUtil" />
       <recent name="com.platzi.player" />
       <recent name="" />
       <recent name="com.platzi.javatest.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilTest">
-    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LeapYearTest">
+    <configuration name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.stringUtil.*" />
+          <option name="PATTERN" value="com.platzi.leapYear.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
+      <option name="PACKAGE_NAME" value="com.platzi.leapYear" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.leapYear.LeapYearTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.string_has_spaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest.shouldReturnFalseWhenYearNotDivisibleBy4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.stringUtil.*" />
+          <option name="PATTERN" value="com.platzi.leapYear.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
-      <option name="METHOD_NAME" value="string_has_spaces" />
+      <option name="PACKAGE_NAME" value="com.platzi.leapYear" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.leapYear.LeapYearTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseWhenYearNotDivisibleBy4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.string_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest.shouldReturnTrueWhenYearDivisibleBy100ButNotBy400" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.stringUtil.*" />
+          <option name="PATTERN" value="com.platzi.leapYear.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
-      <option name="METHOD_NAME" value="string_is_empty" />
+      <option name="PACKAGE_NAME" value="com.platzi.leapYear" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.leapYear.LeapYearTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenYearDivisibleBy100ButNotBy400" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.string_is_not_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest.shouldReturnTrueWhenYearDivisibleBy400ButNotBy100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.stringUtil.*" />
+          <option name="PATTERN" value="com.platzi.leapYear.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
-      <option name="METHOD_NAME" value="string_is_not_empty" />
+      <option name="PACKAGE_NAME" value="com.platzi.leapYear" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.leapYear.LeapYearTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenYearDivisibleBy400ButNotBy100" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.string_is_nully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest.shouldReturnTrueWhenYearDivisibleBy4ButNotBy100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.stringUtil.*" />
+          <option name="PATTERN" value="com.platzi.leapYear.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.stringUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.stringUtil.StringUtilTest" />
-      <option name="METHOD_NAME" value="string_is_nully" />
+      <option name="PACKAGE_NAME" value="com.platzi.leapYear" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.leapYear.LeapYearTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenYearDivisibleBy4ButNotBy100" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="JUnit.StringUtilTest.string_has_spaces" />
-        <item itemvalue="JUnit.StringUtilTest.string_is_nully" />
-        <item itemvalue="JUnit.StringUtilTest.string_is_not_empty" />
-        <item itemvalue="JUnit.StringUtilTest.string_is_empty" />
+        <item itemvalue="JUnit.LeapYearTest" />
+        <item itemvalue="JUnit.LeapYearTest.shouldReturnTrueWhenYearDivisibleBy4ButNotBy100" />
+        <item itemvalue="JUnit.LeapYearTest.shouldReturnTrueWhenYearDivisibleBy100ButNotBy400" />
+        <item itemvalue="JUnit.LeapYearTest.shouldReturnFalseWhenYearNotDivisibleBy4" />
+        <item itemvalue="JUnit.LeapYearTest.shouldReturnTrueWhenYearDivisibleBy400ButNotBy100" />
       </list>
     </recent_temporary>
   </component>

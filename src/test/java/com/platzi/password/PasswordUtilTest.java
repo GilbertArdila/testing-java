@@ -1,3 +1,5 @@
+package com.platzi.password;
+
 import com.platzi.password.PasswordUtil;
 import org.junit.Test;
 
